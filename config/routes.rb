@@ -1,4 +1,6 @@
 SimpleCms::Application.routes.draw do
+  resources :microposts
+
   resources :users
 
   get "demo/index"
